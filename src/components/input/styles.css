@@ -1,0 +1,25 @@
+.form-input-container {
+   height: 90px;
+   text-align: left;
+ }
+
+.input {
+   width: 100%;
+   border-radius: 12px;
+   height: 40px;
+   background-color: transparent;
+   border: 1.5px solid #C0C0C0;
+   padding: 0 20px;
+   margin-top: 8px;
+ }
+
+
+ @media (max-width:641px) {
+   .input {
+      height: 35px;;
+    }
+
+   .form-input-container {
+      height: 85px;
+   }
+ }

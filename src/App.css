@@ -1,0 +1,66 @@
+:root {
+  --bg-primay: #FFFDF8;
+  --primary: #C0C0C0;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--bg-primay);
+  height: 100vh;
+}
+
+
+.form-container {
+  max-width: 488px;
+  margin: 0 auto;
+}
+
+.error {
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0 5px;
+  text-align: left;
+}
+
+.form-submit-button {
+  width: 100%;
+  align-self: center;
+  background-color: #134E4A;
+  color: white;
+  border-radius: 12px;
+  height: 40px;
+  border: 1.5px solid var(--primay);
+}
+
+input::placeholder {
+  color: #818080;
+  opacity: 1;
+}
+
+.label {
+  font-size: 12px;
+  text-align: left;
+  color: var(--primay);
+}
+
+.image {
+  width: 257px;
+  height: 204px;
+}
+
+@media (max-width:641px) {
+  .form-container {
+    max-width: 325px;
+  }
+
+  .image {
+    width: 237px;
+    height: 184px;
+  }
+
+  .form-submit-button {
+    height: 40px;
+  }
+}
